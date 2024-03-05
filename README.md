@@ -16,7 +16,6 @@ Welcome to our Municipal Website project developed by [Your Team Name].
 - [Testing and Review](#testing-and-review)
 - [Delivery](#delivery)
 - [Resources](#resources)
-- [Evaluation](#evaluation)
 
 ## Introduction
 We, the development team at the Municipalidad de San Francisco, are excited to present our complete website project that includes a landing page, an explanation page, and a construction permit form. The aim is to simplify the user experience and provide a visually appealing platform.
