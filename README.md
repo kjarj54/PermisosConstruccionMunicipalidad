@@ -22,20 +22,20 @@ Welcome to our Municipal Website project developed by [Your Team Name].
 We, the development team at the Municipalidad de San Francisco, are excited to present our complete website project that includes a landing page, an explanation page, and a construction permit form. The aim is to simplify the user experience and provide a visually appealing platform.
 
 ## GitHub Repository
-Our project is hosted on GitHub. You can find the repository [here](https://github.com/your-username/municipal-website.git).
+Our project is hosted on GitHub. You can find the repository [here](https://github.com/kjarj54/PermisosConstruccionMunicipalidad.git).
 
 ## Project Setup
 To set up the project locally:
 
 1. Clone the repository to your machine.
     ```bash
-    git clone https://github.com/your-username/municipal-website.git
+    git clone https://github.com/kjarj54/PermisosConstruccionMunicipalidad
     cd municipal-website
     ```
 
 2. Configure the project to use Bootstrap via npm.
     ```bash
-    npm install
+    npm install i bootstrap@5.3.3
     ```
 
 ## Development
