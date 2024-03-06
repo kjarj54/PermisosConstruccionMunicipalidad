@@ -1,7 +1,7 @@
 
 # Municipal Website Project
 
-Welcome to our Municipal Website project developed by [Your Team Name].
+Welcome to our Municipal Website project developed by [Kevin A](https://github.com/kjarj54) and [Anthony A](https://github.com/Anthonyah131).
 
 ## Table of Contents
 - [Introduction](#introduction)
