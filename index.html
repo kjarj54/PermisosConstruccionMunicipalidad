@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Landing Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/png" href="img/logo.png" />
-    <!--
-        Bootstrap stylessheet
-    -->
-<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Landing Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/png" href="img/logo.png" />
+        <!--
+            Bootstrap stylessheet
+        -->
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"/>
 
-    <!--Styles propio-->
-    <link
-        rel="stylesheet"
-        type="text/css"
-        media="screen"
-        href="src/styles/styles.css"
-    />
+        <!--Styles propio-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="src/styles/styles.css"
+        />
     </head>
 
     <body>
@@ -38,7 +37,7 @@
                     <div class="mx-3">Contacto</div>
                 </div>
                 <div class="d-flex align-items-center justify-content-end">
-                    <button class="btn btn-primary" style="background-color: #C88400; border-color: transparent;">Empezar el Proceso</button>
+                    <button class="btn btn-primary">Empezar el Proceso</button>
                 </div>
             </div>
             </header>
@@ -52,9 +51,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container" style="max-width: 860px; max-height: 875px;">
-                <div class="d-flex justify-content-between">
-                    <div style="width: 700px;">
+            <div class="container" style="max-width: 980px; max-height: 875px;">
+                <div class="mt-2 d-flex justify-content-between">
+                    <div class="mt-2 shadow p-3 mb-5 bg-white rounded" style="width: 700px;">
                         <h2>¿Estás listo para dar vida a tus proyectos de construcción?</h2>
                         <div>
                             <p>En Construye Fácil, entendemos lo emocionante que puede ser iniciar un nuevo proyecto, pero también sabemos lo importante que es asegurarse de tener todos los permisos necesarios para que todo transcurra sin problemas.</p>
@@ -62,74 +61,89 @@
                             <p>Nuestra misión es simplificar el proceso de obtención de permisos de construcción municipales para ti. Con años de experiencia en el campo y un profundo conocimiento de la normativa local, estamos aquí para guiarte en cada paso del camino, desde la presentación de formularios hasta la obtención de la documentación oficial.</p>
                             <p>No importa si tu proyecto es grande o pequeño, estamos aquí para ayudarte. Desde obras menores hasta proyectos urbanísticos y torres de telecomunicaciones, nuestro equipo está capacitado para manejar cada situación con profesionalismo y eficiencia. ¡Deja que nosotros nos encarguemos de los detalles mientras tú te concentras en hacer realidad tus sueños de construcción!</p>
                             <h3>Accede a la documentación oficial en línea para solicitar tu permiso ahora</h3>
-                            <button style="width: 240px; height: 50px; background-color: #C88400;">Empezar el Proceso</button>
+                            <button class="btn btn-primary" style="width: 240px; height: 50px;">Empezar el Proceso</button>
                         </div>
                     </div>
-                    <div style="width: 250px;">
-                        <div>
+                    <div class="mt-2 shadow p-3 mb-5 bg-white rounded" style="width: 250px;">
+                        <div class="mb-3">
                             <h4>¿Estás buscando alguna otra información?</h4>
-                            <div style="width: 220px;">
-                                <input type="text" style="width: 220px; height: 50px;" placeholder="Buscar ......">
+                            <div class="mb-2" style="width: 220px;">
+                                <input type="text" class="form-control" style="height: 50px;" placeholder="Buscar ...">
                             </div>
-                            <button style="width: 100px; height: 50px; background-color: #C88400;">Buscar</button>
+                            <button class="btn btn-primary" style="width: 100px; height: 50px;">Buscar</button>
                         </div>
-                        <hr style="width: 90%;">
-                        <div>
+                        <hr style="width: 90%;" class="mb-3">
+                        <div class="mb-2 d-flex flex-column justify-content-around">
                             <h4>¿Otros servicios que ofrecemos?</h4>
-                            <div>
-                                <ul>
-                                    <li><p>Consultoría de Proyectos</p></li>
-                                    <li><p>Diseño Arquitectónico</p></li>
-                                    <li><p>Gestión de Proyectos</p></li>
-                                    <li><p>Inspección y Supervisión</p></li>
-                                </ul>
-                            </div>
+                            <ul class="list-unstyled d-flex flex-column justify-content-around">
+                                <li class="mb-4"><p>- Consultoría de Proyectos</p></li>
+                                <li class="mb-4"><p>- Diseño Arquitectónico</p></li>
+                                <li class="mb-4"><p>- Gestión de Proyectos</p></li>
+                                <li class="mb-4"><p>- Inspección y Supervisión</p></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
 
-        <footer>
-            <div>
-            <div>
-                <div>Construye Fácil</div>
-                    <div>- Asesoría -</div>
-                    <img src="https://via.placeholder.com/79x64" />
+        <footer class="bg-dark text-light py-4">
+            <div class="container">
+                <div class="d-flex justify-content-evenly flex-row">
+                    <div class="text-center mr-5">
+                        <div class="mb-3">
+                        <img src="https://via.placeholder.com/79x64" alt="Logo" />
+                        <div>Construye Fácil</div>
+                        <div>- Asesoría -</div>
+                    </div>
+                    </div>
+                    <div class="text-center mr-5">
+                        <div class="mb-3 w-100" style="max-width: 200px;">
+                        <p>Construye Fácil es tu aliado confiable para la obtención rápida y sin complicaciones de permisos de construcción municipales. Simplifica tus proyectos de construcción con nosotros y hazlos realidad de manera segura y eficiente.</p>
+                        </div>
+                    </div>
+                    <table class=" table-responsive text-light">
+                        <thead>
+                            <tr>
+                                <th>Links</th>
+                                <th>Información de contacto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>> Links</td>
+                                <th>
+                                    <p>Teléfono: +506 1111-1111</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>> Servicio</td>
+                                <th>
+                                    <p>WhatsApp: 2222-2222 / 3333-3333</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <td>> Contacto</td>
+                                <th>
+                                    <p>Email: anthonyah131@gmail.com</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th>
+                                    <p>kjarj54@gmail.com</p>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th style="max-width: 275px;">
+                                    <p style="word-wrap: break-word;">Dirección: Costa Rica, San José, Pérez Zeledón, San Isidro El general</p>
+                                </th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div>
-                <p>
-                    Construye Fácil es tu aliado confiable para la obtención rápida y sin
-                    complicaciones de permisos de construcción municipales. Simplifica tus
-                    proyectos de construcción con nosotros y hazlos realidad de manera
-                    segura y eficiente.
-                    </p>
-            </div>
-            <table>
-                <tr>
-                    <th>Links</th>
-                    <th>Información de contacto</th>
-                </tr>
-                <tr>
-                    <td>> Links</td>
-                    <td>
-                        <p>Teléfono: +506 1111-1111</p>
-                        <p>WhatsApp: 2222-2222 / 3333-3333</p>
-                        <p>Email: anthonyah131@gmail.com</p>
-                        <p>kjarj54@gmail.com</p>
-                        <p>Dirección: Costa Rica, San José, Pérez Zeledón, San Isidro El general</p>
-                        </td>
-                </tr>
-                <tr>
-                    <td>> Servicio</td>
-                </tr>
-                <tr>
-                    <td>> Contacto</td>
-                </tr>
-
-            </table>
-        </div>
-
         </footer>
     </div>
 
