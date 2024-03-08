@@ -1,127 +1,140 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Landing Page</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/png" href="img/logo.png" />
-        <!--
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <!--
             Bootstrap stylessheet
         -->
-        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-        <!--Styles propio-->
-        <link
-            rel="stylesheet"
-            type="text/css"
-            media="screen"
-            href="src/styles/styles.css"
-        />
-    </head>
+    <!--Styles propio-->
+    <link rel="stylesheet" type="text/css" media="screen" href="src/styles/styles.css" />
+</head>
 
-    <body>
-        <header class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <div class="d-flex align-items-center justify-content-start">
-                    <img src="https://via.placeholder.com/79x64" alt="Logo" class="mr-3" />
-                    <div>
-                        <div>Construye Fácil</div>
-                        <div>Asesoría</div>
-                    </div>
-                </div>
-                <div class="d-flex align-items-center justify-content-center">
-                    <div class="mx-3">Inicio</div>
-                    <div class="mx-3">Servicios</div>
-                    <div class="mx-3">Contacto</div>
-                </div>
-                <div class="d-flex align-items-center justify-content-end">
-                    <button class="btn btn-primary">Empezar el Proceso</button>
+<body>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-start">
+                <img src="https://via.placeholder.com/79x64" alt="Logo" class="mr-3" />
+                <div>
+                    <div>Construye Fácil</div>
+                    <div>Asesoría</div>
                 </div>
             </div>
-        </header>
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="mx-3">Inicio</div>
+                <div class="mx-3">Servicios</div>
+                <div class="mx-3">Contacto</div>
+            </div>
+            <div class="d-flex align-items-center justify-content-end">
+                <button class="btn btn-primary">Empezar el Proceso</button>
+            </div>
+        </div>
+    </header>
 
-        <main>
-            <section>
+    <main>
+        <section>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="container-fluid">
+                        <div class="position-relative">
+                            <img src="/public/images/constructor-1.png" class="img-fluid" alt="Imagen de fondo"
+                                style="height: 456px; object-fit: cover; background-size: cover;" />
+                            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                                <h1>¡Obtén tu Permiso de Construcción sin complicaciones!</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
                 <div class="row">
-                    <div class="col-lg-12">
-                        <div class="container-fluid">
-                            <div class="position-relative">
-                                <img src="/public/images/constructor-1.png" class="img-fluid" alt="Imagen de fondo" style="height: 456px; object-fit: cover; background-size: cover;" />
-                                <div class="position-absolute top-50 start-50 translate-middle text-center">
-                                    <h1>¡Obtén tu Permiso de Construcción sin complicaciones!</h1>
+                    <div class="col-lg-6">
+                        <div class="mt-2 shadow p-3 mb-5 bg-white rounded">
+                            <h2>¿Estás listo para dar vida a tus proyectos de construcción?</h2>
+                            <div>
+                                <p>En Construye Fácil, entendemos lo emocionante que puede ser iniciar un nuevo
+                                    proyecto, pero también sabemos lo importante que es asegurarse de tener todos los
+                                    permisos necesarios para que todo transcurra sin problemas.</p>
+                                <img src="https://via.placeholder.com/620x192" class="img-fluid"
+                                    style="height: 192px; object-fit: cover; background-size: cover;" alt="Imagen" />
+                                <p>Nuestra misión es simplificar el proceso de obtención de permisos de construcción
+                                    municipales para ti. Con años de experiencia en el campo y un profundo conocimiento
+                                    de la normativa local, estamos aquí para guiarte en cada paso del camino, desde la
+                                    presentación de formularios hasta la obtención de la documentación oficial.</p>
+                                <p>No importa si tu proyecto es grande o pequeño, estamos aquí para ayudarte. Desde
+                                    obras menores hasta proyectos urbanísticos y torres de telecomunicaciones, nuestro
+                                    equipo está capacitado para manejar cada situación con profesionalismo y eficiencia.
+                                    ¡Deja que nosotros nos encarguemos de los detalles mientras tú te concentras en
+                                    hacer realidad tus sueños de construcción!</p>
+                                <h3>Accede a la documentación oficial en línea para solicitar tu permiso ahora</h3>
+                                <button class="btn btn-primary">Empezar el Proceso</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mt-2 shadow p-3 mb-5 bg-white rounded" style="width: 250px;">
+                            <div class="mb-3">
+                                <h4>¿Estás buscando alguna otra información?</h4>
+                                <div class="mb-2" style="width: 220px;">
+                                    <input type="text" class="form-control" style="height: 50px;"
+                                        placeholder="Buscar ...">
                                 </div>
+                                <button class="btn btn-primary">Buscar</button>
+                            </div>
+                            <hr style="width: 90%;" class="mb-3">
+                            <div class="mb-2 d-flex flex-column justify-content-around">
+                                <h4>¿Otros servicios que ofrecemos?</h4>
+                                <ul class="list-unstyled d-flex flex-column justify-content-around">
+                                    <li class="mb-4">
+                                        <p>- Consultoría de Proyectos</p>
+                                    </li>
+                                    <li class="mb-4">
+                                        <p>- Diseño Arquitectónico</p>
+                                    </li>
+                                    <li class="mb-4">
+                                        <p>- Gestión de Proyectos</p>
+                                    </li>
+                                    <li class="mb-4">
+                                        <p>- Inspección y Supervisión</p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="mt-2 shadow p-3 mb-5 bg-white rounded">
-                                <h2>¿Estás listo para dar vida a tus proyectos de construcción?</h2>
-                                <div>
-                                    <p>En Construye Fácil, entendemos lo emocionante que puede ser iniciar un nuevo proyecto, pero también sabemos lo importante que es asegurarse de tener todos los permisos necesarios para que todo transcurra sin problemas.</p>
-                                    <img src="https://via.placeholder.com/620x192" class="img-fluid" style="height: 192px; object-fit: cover; background-size: cover;" alt="Imagen" />
-                                    <p>Nuestra misión es simplificar el proceso de obtención de permisos de construcción municipales para ti. Con años de experiencia en el campo y un profundo conocimiento de la normativa local, estamos aquí para guiarte en cada paso del camino, desde la presentación de formularios hasta la obtención de la documentación oficial.</p>
-                                    <p>No importa si tu proyecto es grande o pequeño, estamos aquí para ayudarte. Desde obras menores hasta proyectos urbanísticos y torres de telecomunicaciones, nuestro equipo está capacitado para manejar cada situación con profesionalismo y eficiencia. ¡Deja que nosotros nos encarguemos de los detalles mientras tú te concentras en hacer realidad tus sueños de construcción!</p>
-                                    <h3>Accede a la documentación oficial en línea para solicitar tu permiso ahora</h3>
-                                    <button class="btn btn-primary">Empezar el Proceso</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="mt-2 shadow p-3 mb-5 bg-white rounded" style="width: 250px;">
-                                <div class="mb-3">
-                                    <h4>¿Estás buscando alguna otra información?</h4>
-                                    <div class="mb-2" style="width: 220px;">
-                                        <input type="text" class="form-control" style="height: 50px;" placeholder="Buscar ...">
-                                    </div>
-                                    <button class="btn btn-primary">Buscar</button>
-                                </div>
-                                <hr style="width: 90%;" class="mb-3">
-                                <div class="mb-2 d-flex flex-column justify-content-around">
-                                    <h4>¿Otros servicios que ofrecemos?</h4>
-                                    <ul class="list-unstyled d-flex flex-column justify-content-around">
-                                        <li class="mb-4"><p>- Consultoría de Proyectos</p></li>
-                                        <li class="mb-4"><p>- Diseño Arquitectónico</p></li>
-                                        <li class="mb-4"><p>- Gestión de Proyectos</p></li>
-                                        <li class="mb-4"><p>- Inspección y Supervisión</p></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="bg-dark text-white py-4">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-6">
-                  <h5>Section 1</h5>
-                  <ul class="list-unstyled">
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                  </ul>
-                </div>
-                <div class="col-md-6">
-                  <h5>Section 2</h5>
-                  <p>Some content here</p>
-                </div>
-              </div>
             </div>
-          </footer>
+        </section>
+    </main>
 
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"
-    ></script>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Section 1</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Section 2</h5>
+                    <p>Some content here</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="main.js"></script>
-    </body>
+</body>
+
 </html>
