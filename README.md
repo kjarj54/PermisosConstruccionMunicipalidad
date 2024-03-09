@@ -69,7 +69,7 @@ To set up the project locally:
 - Reviewed code for proper structure and adherence to best practices.
 
 ## Delivery
-The website is published on Netlify's free tier. You can access it [here](https://lucent-pavlova-af3e61.netlify.app/).
+The website is published on Netlify's free tier. You can access it [here](https://permisosconstruccionmunicipalidad.netlify.app/).
 
 ## Resources
 - [Bootstrap Documentation](https://getbootstrap.com/docs/5.0/)
