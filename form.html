@@ -16,7 +16,7 @@
     <link rel='stylesheet' type='text/css' media='screen' href='src/styles/styles.css'>
 
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>\
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src='src/js/form.js'></script>
@@ -24,25 +24,24 @@
 </head>
 
 <body>
-  <header class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <div class="container  align-items-center justify-content-start">
-            <img src="./public/images/logo.png" width="100" height="100" alt="Logo" class="mr-3" />
-            <div>
-                <h5>ConstruyeFácil</h5>
-                <h5>Asesoría</h5>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="container  align-items-center justify-content-start">
+                <img src="./public/images/logo.png" width="100" height="100" alt="Logo" class="mr-3" />
+                <div>
+                    <h5>ConstruyeFácil</h5>
+                    <h5>Asesoría</h5>
+                </div>
+            </div>
+            <div class="container justify-content-evenly">
+                <a href="./index.html" class="mx-3 text-black">Inicio</a>
+                <a href="./detail.html" class="mx-3 text-black">Servicios</a>
+            </div>
+            <div class="container justify-content-end">
+                <button class="btn btn-primary"><a class="text-white" href="./form.html">Empezar el Proceso</a></button>
             </div>
         </div>
-        <div class="container justify-content-evenly">
-            <a href="./index.html" class="mx-3 text-black">Inicio</a>
-            <a href="./detail.html" class="mx-3 text-black">Servicios</a>
-            <a href="./form.html" class="mx-3 text-black">Contacto</a>
-        </div>
-        <div class="container justify-content-end">
-            <button class="btn btn-primary" ><a class="text-white" href="./form.html">Empezar el Proceso</a></button>
-        </div>
-    </div>
-</header>
+    </header>
 
     <main>
         <div>
@@ -50,45 +49,127 @@
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
-                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">Nombre</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Nombre" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputPassword4">Password</label>
-                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                        <label for="inputCity">Apellido</label>
+                        <input type="text" class="form-control" id="inputLastName" placeholder="Apellido" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputObra">Tipo de obra</label>
+                        <select id="inputObra" class="form-control">
+                            <option selected>Selecciona un tipo de obra...</option>
+                            <option>Obra Menor, obras con un área menor a 40m²</option>
+                            <option>Obra Mayor, obras con un área mayor a 40m²</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">Numero de telefono</label>
+                        <input type="number" class="form-control" id="Number" placeholder="Telefono" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputCity">Área de Construcción(m²): </label>
+                        <input type="number" class="form-control" id="AreaConst" placeholder="m²" required>
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputAddress">Address</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="form-group">
-                    <label for="inputAddress2">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2"
-                        placeholder="Apartment, studio, or floor">
+                    <label for="inputAddress">Dirección de la Propiedad:</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="Dirección de la Propiedad"
+                        required>
                 </div>
                 <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="inputCity">City</label>
-                        <input type="text" class="form-control" id="inputCity">
+                    <legend class="col-form-label col-sm-2 pt-0"> Plano Catastrado de la Propiedad:</legend>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Plano" id="Plano" value="option1">
+                        <label class="form-check-label" for="Plano">Si</label>
                     </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Plano" id="Plano2" value="option2">
+                        <label class="form-check-label" for="Plano2">No</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <legend class="col-form-label col-sm-2 pt-0">Certificado de Uso de Suelo:</legend>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="certificado" id="certificado"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Si</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="certificado" id="certificado2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
+                    </div>
+                </div>
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Copia de Cédula de Identidad del
+                        Propietario:</label>
+                </div>
+                <div class="form-row">
+                    <legend class="col-form-label col-sm-2 pt-0">Alineamientos y Afectaciones:</legend>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Alineamientos" id="Alineamientos"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1">Si</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="Alineamientos" id="Alineamientos2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <legend class="col-form-label col-sm-2 pt-0">Croquis a Escala del Proyecto:</legend>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="croquis" id="croquis"
+                            value="option1">
+                        <label class="form-check-label" for="croquis">Si</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="croquis" id="croquis2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">No</label>
+                    </div>
+                </div>
+
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile">Constancia de Pago de Obligaciones con la
+                        CCSS:</label>
+                </div>
+                <div class="form-row">
                     <div class="form-group col-md-4">
-                        <label for="inputState">State</label>
+                        <label for="inputState">Provincia</label>
                         <select id="inputState" class="form-control">
-                            <option selected>Choose...</option>
-                            <option>...</option>
+                            <option selected>Selecciona una provincia...</option>
+                            <option value="San José">San José</option>
+                            <option value="Alajuela">Alajuela</option>
+                            <option value="Cartago">Cartago</option>
+                            <option value="Heredia">Heredia</option>
+                            <option value="Guanacaste">Guanacaste</option>
+                            <option value="Puntarenas">Puntarenas</option>
+                            <option value="Limón">Limón</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputCanton">Canton</label>
+                        <select id="inputCanton" class="form-control">
+                            <option selected>Selecciona una provincia...</option>
                         </select>
                     </div>
                     <div class="form-group col-md-2">
                         <label for="inputZip">Zip</label>
                         <input type="text" class="form-control" id="inputZip">
                     </div>
-                </div>
-                <div class="form-group">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Check me out
-                        </label>
+                    <div class="form-group col-md-2">
+                        <label for="inputZip">Fecha</label>
+                        <input type="date" class="form-control" id="date">
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Eviar</button>
@@ -97,42 +178,44 @@
 
     </main>
     <footer class="bg-dark text-white py-4">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-4">
-                  <div class="container  align-items-center justify-content-start">
-                      <img src="./public/images/logo.png" width="100" height="100" alt="Logo" class="mr-3" />
-                      <div>
-                          <h5>ConstruyeFácil</h5>
-                          <h5>Asesoría</h5>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-md-4">
-                  <h5>Contacto</h5>
-                  <ul class="list-unstyled">
-                      <li><strong>Teléfono:</strong> +XX XXX XXX XXX</li>
-                      <li><strong>Dirección:</strong> [Dirección de la empresa]</li>
-                      <li><strong>Correo:</strong> info@construyefacil.com</li>
-                      <li><strong>Enlaces:</strong>
-                          <ul>
-                              <li><a href="#">Sitio web</a></li>
-                              <li><a href="#">Facebook</a></li>
-                              <li><a href="#">Twitter</a></li>
-                          </ul>
-                      </li>
-                      <li><a href="#">Solicitar ayuda</a></li>
-                  </ul>
-              </div>
-              <div class="col-md-4">
-                  <h5>Sobre ConstruyeFácil</h5>
-                  <p>ConstruyeFácil es una empresa con experiencia que te ayuda en todo lo relacionado con la construcción. Ofrecemos servicios de asesoramiento, suministro de materiales y gestión de proyectos para facilitar tus obras y hacerlas más eficientes.</p>
-              </div>
-          </div>
-      </div>
-  </footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="container  align-items-center justify-content-start">
+                        <img src="./public/images/logo.png" width="100" height="100" alt="Logo" class="mr-3" />
+                        <div>
+                            <h5>ConstruyeFácil</h5>
+                            <h5>Asesoría</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><strong>Teléfono:</strong> +XX XXX XXX XXX</li>
+                        <li><strong>Dirección:</strong> [Dirección de la empresa]</li>
+                        <li><strong>Correo:</strong> info@construyefacil.com</li>
+                        <li><strong>Enlaces:</strong>
+                            <ul>
+                                <li><a href="#">Sitio web</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Solicitar ayuda</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Sobre ConstruyeFácil</h5>
+                    <p>ConstruyeFácil es una empresa con experiencia que te ayuda en todo lo relacionado con la
+                        construcción. Ofrecemos servicios de asesoramiento, suministro de materiales y gestión de
+                        proyectos para facilitar tus obras y hacerlas más eficientes.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    
+
 </body>
 
 </html>
