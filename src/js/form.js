@@ -109,11 +109,14 @@ document.addEventListener("DOMContentLoaded", function () {
     inputCanton.value = selectedCanton;
   });
 
-  var submitButton = document.getElementById("submit");
-  var successAlert = document.getElementById("alert-success");
+  document.getElementById('miFormulario').addEventListener('submit', function(event) {
+    event.preventDefault();
+  
+    document.getElementById('alertaExito').classList.remove('d-none');
 
-  submitButton.addEventListener("submit", function () {
-    // Show the success alert
-    successAlert.removeAttribute("hidden");
+    setTimeout(function() {
+      document.getElementById('miFormulario').reset();
+      document.getElementById('alertaExito').classList.add('d-none');
+    }, 3000);
   });
 });
