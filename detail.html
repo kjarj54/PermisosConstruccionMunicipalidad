@@ -12,6 +12,9 @@
     -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <!--Styles propio-->
     <link rel='stylesheet' type='text/css' media='screen' href='src/styles/styles.css'>
@@ -19,26 +22,270 @@
 </head>
 
 <body>
-    <header class="">
-        <nav class="">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="detail.html">Detail</a></li>
-                <li><a href="form.html">Form</a></li>
-            </ul>
-        </nav>
+    <header class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="d-flex align-items-center justify-content-start">
+                <img src="https://via.placeholder.com/79x64" alt="Logo" class="mr-3" />
+                <div>
+                    <div>Construye Fácil</div>
+                    <div>Asesoría</div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="mx-3">Inicio</div>
+                <div class="mx-3">Servicios</div>
+                <div class="mx-3">Contacto</div>
+            </div>
+            <div class="d-flex align-items-center justify-content-end">
+                <button class="btn btn-primary">Empezar el Proceso</button>
+            </div>
+        </div>
     </header>
+
     <main>
+        <section>
+            <div class="container text-center col-lg-9">
+                <h1 class="m-5">Cómo ConstruyeFácil puede Ayudarte con tu Permiso de Construcción</h1>
+                <p>En ConstruyeFácil entendemos lo complicado que puede ser el
+                    proceso de obtener un permiso de construcción. Por eso, nos
+                    comprometemos a brindarte todo el apoyo y asesoría necesarios
+                    para que puedas completar este trámite de manera eficiente y sin contratiempos.</p>
+                <div class="container m-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <!-- Insertar el video de YouTube utilizando la clase embed-responsive de Bootstrap -->
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/h27AD82zUKo" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion" id="accordionExample">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    1. Evaluación de Requisitos
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Nuestro equipo especializado se encargará de analizar los requisitos
+                                específicos para tu proyecto de construcción, teniendo en cuenta el tipo
+                                de obra que deseas realizar y las regulaciones locales vigentes. Esto
+                                garantizará que tengas toda la información necesaria para proceder con el
+                                trámite de manera adecuada.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    2. Asesoramiento Personalizado
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Te proporcionaremos asesoramiento personalizado en cada etapa del proceso,
+                                desde la recopilación de la documentación requerida hasta la presentación
+                                de la solicitud ante las autoridades competentes. Nos aseguraremos de que
+                                entiendas claramente qué se necesita y cómo proceder en cada paso del camino.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3. Gestión de Documentación
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Nos encargaremos de llenar y gestionar todos los formularios y documentos
+                                necesarios para tu solicitud de permiso de construcción. Desde el formulario
+                                de solicitud hasta los planos constructivos y certificados requeridos, nos
+                                aseguraremos de que todo esté en orden y presentado de manera correcta.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                4. Coordinación con Autoridades
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Facilitaremos la comunicación y coordinación con las autoridades municipales
+                                y otras instituciones pertinentes para agilizar el proceso de aprobación de tu
+                                permiso de construcción. Nos encargaremos de seguir de cerca el progreso de
+                                tu solicitud y resolver cualquier problema o pregunta que pueda surgir.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                5. Cumplimiento Normativo
+                            </button>
+                        </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                            <div class="card-body">
+                                Nos aseguraremos de que tu proyecto cumpla con todas las normativas y regulaciones
+                                locales, incluyendo los requisitos de uso de suelo, seguridad estructural y
+                                protección ambiental. Esto garantizará que tu construcción se realice de manera
+                                segura y legalmente conforme a las leyes y regulaciones vigentes.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="m-3">En ConstruyeFácil, nuestro objetivo es hacer que el proceso de obtener un
+                    permiso de construcción sea lo más fácil y sin complicaciones posible para ti.
+                    Confía en nosotros para brindarte el apoyo y la orientación que necesitas para
+                    llevar a cabo tu proyecto de construcción con éxito.</p>
 
+                <h3 class="m-4">¡Contáctanos hoy mismo para comenzar!</h3>
+                <button class="btn btn-primary mb-4">Empezar el Proceso</button>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2 class="m-5 text-center">Todos los Servicios Ofrecidos por Nuestra Empresa</h2>
+                <div id="carouselExampleControls" class="m-3 carousel carousel-dark slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="justify-content-evenly row">
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-dark">
+                                        <div class="container card-body">
+                                            <h5 class="card-title">Consultoría y Asesoramiento Profesional</h5>
+                                            <p class="card-text">Nuestro equipo de expertos está capacitado para brindar
+                                                asesoramiento técnico y consultoría especializada en una variedad de áreas,
+                                                incluyendo planificación urbana, diseño arquitectónico, ingeniería estructural
+                                                y gestión de proyectos. Desde la conceptualización hasta la implementación,
+                                                estamos aquí para ayudarlo a alcanzar sus objetivos con éxito.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-dark">
+                                        <div class="container card-body">
+                                            <h5 class="card-title">Gestión de Permisos y Trámites Legales</h5>
+                                            <p class="card-text">Facilitamos el proceso de obtención de permisos y
+                                                licencias para proyectos de construcción, navegando a través de la
+                                                compleja maraña de regulaciones y requisitos legales. Con un profundo
+                                                conocimiento de los procedimientos administrativos y una sólida relación
+                                                con las autoridades pertinentes, garantizamos un proceso fluido y sin problemas
+                                                para nuestros clientes.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="justify-content-evenly row">
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-dark">
+                                        <div class="container card-body">
+                                            <h5 class="card-title">Diseño y Planificación Urbanística</h5>
+                                            <p class="card-text">Nuestro equipo de diseñadores y planificadores
+                                                urbanos colabora estrechamente con nuestros clientes para desarrollar
+                                                soluciones creativas y sostenibles que mejoren la calidad de vida en
+                                                entornos urbanos y rurales. Desde el diseño de espacios públicos
+                                                hasta la planificación de comunidades completas, nos comprometemos
+                                                a crear entornos habitables y vibrantes para las generaciones futuras.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-dark">
+                                        <div class="container card-body">
+                                            <h5 class="card-title">Inspección y Supervisión de Obras</h5>
+                                            <p class="card-text">Ofrecemos servicios de inspección y supervisión de obras
+                                                para garantizar que los proyectos se ejecuten de acuerdo con los estándares
+                                                más altos de calidad y seguridad. Nuestros inspectores altamente capacitados
+                                                y experimentados trabajan en estrecha colaboración con los contratistas y
+                                                subcontratistas para garantizar el cumplimiento de los plazos, presupuestos
+                                                y especificaciones técnicas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="justify-content-evenly row">
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-dark">
+                                        <div class="container card-body">
+                                            <h5 class="card-title">Desarrollo de Proyectos Inmobiliarios</h5>
+                                            <p class="card-text">Colaboramos con promotores inmobiliarios, inversionistas y
+                                                propietarios de terrenos para desarrollar proyectos inmobiliarios exitosos y
+                                                rentables. Desde la identificación de oportunidades de inversión hasta la
+                                                comercialización y venta de propiedades, ofrecemos un enfoque integral y
+                                                orientado al cliente que maximiza el valor y el retorno de la inversión.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="card text-white bg-dark">
+                                        <div class="container card-body">
+                                            <h5 class="card-title">Servicios Especiales para Telecomunicaciones</h5>
+                                            <p class="card-text">Nuestra empresa cuenta con experiencia en la gestión
+                                                y regulación de proyectos de infraestructura de telecomunicaciones,
+                                                asegurando el cumplimiento de las normativas locales y nacionales.
+                                                Desde la obtención de licencias municipales hasta la supervisión
+                                                de la construcción e instalación de torres y antenas, brindamos
+                                                un servicio completo y confiable a nuestros clientes en este sector
+                                                en constante evolución.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div  v>
+                    </div>
+                    <a class="carousel-control-prev carous" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </section>
     </main>
-    <footer class="">
 
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Section 1</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5>Section 2</h5>
+                    <p>Some content here</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src='main.js'></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
