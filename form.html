@@ -45,7 +45,7 @@
 
     <main>
         <div>
-            <form class="p-5">
+            <form class="p-5" id="myForm">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label for="inputEmail4">Email</label>
@@ -127,13 +127,11 @@
                 <div class="form-row">
                     <legend class="col-form-label col-sm-2 pt-0">Croquis a Escala del Proyecto:</legend>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="croquis" id="croquis"
-                            value="option1">
+                        <input class="form-check-input" type="radio" name="croquis" id="croquis" value="option1">
                         <label class="form-check-label" for="croquis">Si</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="croquis" id="croquis2"
-                            value="option2">
+                        <input class="form-check-input" type="radio" name="croquis" id="croquis2" value="option2">
                         <label class="form-check-label" for="inlineRadio2">No</label>
                     </div>
                 </div>
@@ -172,7 +170,15 @@
                         <input type="date" class="form-control" id="date">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Eviar</button>
+                <button type="submit" class="btn btn-primary" id="submit">Enviar</button>
+                <div class="alert alert-success" role="alert" id="alert-success" hidden>
+                    <h4 class="alert-heading">Well done!</h4>
+                    <p>Aww yeah, you successfully read this important alert message. This example text is going to run a
+                        bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+                    <hr>
+                    <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.
+                    </p>
+                </div>
             </form>
         </div>
 
