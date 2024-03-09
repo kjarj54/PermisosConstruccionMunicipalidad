@@ -16,6 +16,8 @@ Welcome to our Municipal Website project developed by [Kevin A](https://github.c
 - [Testing and Review](#testing-and-review)
 - [Delivery](#delivery)
 - [Resources](#resources)
+- [Knowledge](#knowledge)
+
 
 ## Introduction
 We, the development team at the Municipalidad de San Francisco, are excited to present our complete website project that includes a landing page, an explanation page, and a construction permit form. The aim is to simplify the user experience and provide a visually appealing platform.
@@ -76,3 +78,10 @@ The website is published on Netlify's free tier. You can access it [here](https:
 - [Bootstrap Themes and Bootswatch](https://bootswatch.com/)
 - [Netlify](https://www.netlify.com/)
 - [Construction Permit Requirements](Construction_Permit_Requirements_Link)
+
+## Knowledge
+
+Ambos apendimos mediante la elaboracion del proyecto a trabajar en equipo mediante la utilizacion de github, donde en el repositorio se pueden ver reflejados los cambio que cada uno hacia,mediante bootstrap se utilizo para crear gran parte del trabajo en la creacion de la pagina que sea facil de entender y clara. Ademas que se logro aprender sobre que gracias a bootstrap se
+facilita la tarea de crear paginas para varios dispositivos ya sea computadoras y telefonos porque este divide la pantalla en un grid de maximo 12 columnas y 12 filas. Con bootstrap tambien aprendimos que con esto es mas facil llegar a crear formularios estilizados que ya vienen dentro de bootstrap lo cual llega a facilitar mucho el trabajo al momento de programar porque no es necesario molestarse por la hoja de estilos, netifly nos permitio un despliegue de la pagina mas sencilla y mas completa que con github pages debido a que en este se pudo llegar a utilizar diferentes librerias y es mas completo.
+
+Ademas el saber que la pagina no va ser utilizada en una sola plataforma nos hizo probarla en diferentes navegadores y en su mayoria se pcomporta de la misma manera, igualmente se llego a probar en dispositivos moviles para asegurarse realmente de la adaptacion de la pagina. En resumen, aprendimos a construir un sitio web completo y atractivo, ¡y hasta cómo compartirlo con quien desee verlo! solo con el link de netifly.
